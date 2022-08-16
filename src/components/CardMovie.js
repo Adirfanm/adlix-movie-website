@@ -28,7 +28,7 @@ const CardMovie = (props) => {
             <Card.Img variant="top" src={props.poster} />
             <Card.Body className="d-flex flex-column">
                 <Card.Title>{props.title}</Card.Title>
-                <Card.Subtitle className="my-2 text-muted">{props.date}</Card.Subtitle>
+                <Card.Subtitle className="mt-2 mb-3 text-muted">{props.date}</Card.Subtitle>
                 <ModalDetail
                     show={show}
                     onCloseClick={() => handleClose()}
@@ -40,8 +40,9 @@ const CardMovie = (props) => {
                     duration={movieDetails.runtime}
 
                 />
+
                 <Button
-                    className='btn-detail mt-auto'
+                    className='btn-detail mt-auto ms-auto'
                     variant="outline-light"
                     onClick={() => { handleShow(); getMovieDetails(props.movieid) }}>
                     Details
