@@ -26,7 +26,7 @@ const CardMovie = (props) => {
     return (
         <Card style={{ width: '19rem', backgroundColor: '#1c2635', color: '#fff' }}>
             <Card.Img variant="top" src={props.poster} />
-            <Card.Body>
+            <Card.Body className="d-flex flex-column">
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Subtitle className="my-2 text-muted">{props.date}</Card.Subtitle>
                 <ModalDetail
@@ -41,7 +41,7 @@ const CardMovie = (props) => {
 
                 />
                 <Button
-                    className='btn-detail'
+                    className='btn-detail mt-auto'
                     variant="outline-light"
                     onClick={() => { handleShow(); getMovieDetails(props.movieid) }}>
                     Details
