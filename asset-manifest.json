@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/adlix-movie-website/static/css/main.32f373f0.css",
-    "main.js": "/adlix-movie-website/static/js/main.61384f94.js",
+    "main.js": "/adlix-movie-website/static/js/main.72fdf370.js",
     "static/js/787.f3fe485a.chunk.js": "/adlix-movie-website/static/js/787.f3fe485a.chunk.js",
     "static/media/nwh-banner.jpg": "/adlix-movie-website/static/media/nwh-banner.f3436efe2b66be68f336.jpg",
     "static/media/ejen-ali-banner.webp": "/adlix-movie-website/static/media/ejen-ali-banner.86b49c2eb60e2397c723.webp",
     "static/media/walking-dead-banner.webp": "/adlix-movie-website/static/media/walking-dead-banner.a478be3ed1d9d13cd288.webp",
     "index.html": "/adlix-movie-website/index.html",
     "main.32f373f0.css.map": "/adlix-movie-website/static/css/main.32f373f0.css.map",
-    "main.61384f94.js.map": "/adlix-movie-website/static/js/main.61384f94.js.map",
+    "main.72fdf370.js.map": "/adlix-movie-website/static/js/main.72fdf370.js.map",
     "787.f3fe485a.chunk.js.map": "/adlix-movie-website/static/js/787.f3fe485a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32f373f0.css",
-    "static/js/main.61384f94.js"
+    "static/js/main.72fdf370.js"
   ]
 }
