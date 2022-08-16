@@ -1,0 +1,25 @@
+.popular-section, 
+.theaters-section {
+    margin-top: 100px;
+}
+
+.section-tittle h1 {
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .card-body .card-title{
+        font-size: 0.7em;
+    }
+    
+    .card-body .card-subtitle{
+        font-size: 0.5em;
+    }
+    
+    .card-body .btn-detail{
+        font-size: 0.3em;
+        max-width: 50px;
+        padding: 6px 12px;
+        border-width: 0.5px;
+    }
+}
